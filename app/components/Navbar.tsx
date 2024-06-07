@@ -33,7 +33,7 @@ const Menu: FC<MenuProps> = ({ items }) => {
     return (
         <div className=" absolute w-[320px] h-screen bg-gradient-to-b from-orange-100 to-orange-600 p-8 mx-8 rounded-lg">
             {items.map((item, index) => (
-                <MenuButton label={item} />
+                <MenuButton key={index} label={item} />
             ))}
         </div>
     );
