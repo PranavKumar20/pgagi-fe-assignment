@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.bg-radial-gradient {
+    background: radial-gradient(circle, white 0%, orange 50%, white 100%);
+}
