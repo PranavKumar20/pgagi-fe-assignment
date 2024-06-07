@@ -9,7 +9,7 @@ export const HeroSection1 = () => {
             <div className="flex justify-center " >
                 <div className="bg-gradient-to-r from-orange-200 to-orange-700 text-center py-4 px-10 rounded-md m-2" >
                 <div className="text-white" >Build your own voice agent</div>
-                <div>'It's free!'</div>
+                <div>&apos;It&apos;s free!&apos;</div>
                 </div>
             </div>
             <div className="flex  justify-center " >
